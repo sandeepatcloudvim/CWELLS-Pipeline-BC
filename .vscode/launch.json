@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "CWELLS_Testing_Sandbox",
+            "tenant": "6a89de09-a556-42b3-9819-5e8fb5b8b411",  
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "port": 18049,
+            "schemaUpdateMode":"Synchronize"
+        }
+    ]
+}
